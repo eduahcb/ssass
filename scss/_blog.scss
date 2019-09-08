@@ -27,13 +27,13 @@
 .post-destaque {
   margin-right: 2em;
 
-  @media (max-width: 980px) {
+  @media #{$mq-mobile} {
     width: auto;
   }
 }
 
 .posts-antigos {
-  @media (max-width: 980px) {
+  @media #{$mq-mobile} {
     width: auto;
   }
 }
