@@ -26,6 +26,16 @@
 
 .post-destaque {
   margin-right: 2em;
+
+  @media (max-width: 980px) {
+    width: auto;
+  }
+}
+
+.posts-antigos {
+  @media (max-width: 980px) {
+    width: auto;
+  }
 }
 
 .post-destaque img {
