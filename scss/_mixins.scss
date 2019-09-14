@@ -14,3 +14,7 @@
 %sombra-padrao {
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
+
+@mixin retorna-largura ($multiplicador) {
+  width: $multiplicador * $font-tamanho-padrao;
+}
